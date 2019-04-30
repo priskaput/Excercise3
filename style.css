@@ -1,0 +1,35 @@
+body{
+    background-image: url("img/background-01.png");
+    background-color: #1B3244;
+    font-family: 'Schoolbell', cursive;
+}
+
+.icon-planet{
+    text-align: center;
+    color: white;
+    margin-top: 12em;
+}
+.cari-planet{
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    padding-left: 5em;
+    padding-right: 5em;
+    
+}
+
+.table-cari-planet{
+    padding-left: 5em;
+    padding-right: 5em;
+     
+}
+hr{
+    border-top: 1.5px solid white;
+}
+.planet-title{
+    text-align: center;
+    margin-bottom: 1em;
+    color: aliceblue;
+}
+#data-planet{
+    margin-top: 10em;
+}

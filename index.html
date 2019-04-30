@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gugi|Schoolbell" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Schoolbell" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+
+    <title>Planet List</title>
+</head>
+<body>
+    <div class="container">
+        <div id="data-planet">
+            <h1 class="planet-title">These are Data Planet</h1>
+        </div>
+            <table class="table table-striped table-dark" id="planet-list"></table>
+        <br>
+
+        <div class="cari-planet">
+            <h2 class="planet-title">Search Here!</h2>
+            <div class="cari-planet-input input-group md-form form-sm form-2 pl-0">
+                <input class="form-control my-0 py-1 red-border" id="search-keyword" value="" type="text"  placeholder="search here..." onkeyup="onClickSearchResult()"> 
+                <input type="submit" value="&#xf002" onclick="onClickSearchResult()" class="input-group-text red lighten-3 fas fa-search text-grey">
+                
+            </div>
+        </div>
+        <div class="table-cari-planet">
+            <table class="table table-hover table-dark" id="search-result"></table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
